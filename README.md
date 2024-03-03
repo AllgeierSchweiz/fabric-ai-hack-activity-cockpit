@@ -47,7 +47,7 @@ The primary objective of this architecture, apart from automatically importing t
 
 **Architecture Overview (Original Version)**
 
-The architecture setup will follow the workflow of the diagram below:
+The architecture setup:
 
 ![Architecture](images/Original_Solution.png)
 
@@ -75,7 +75,7 @@ In our case, we will dispense with the silver layer since transformation will be
 
 **Architecture Overview (Original Version)**
 
-The architecture setup will follow the workflow of the diagram below:
+The architecture setup in Fabric will follow the workflow of the diagram below:
 
 *** ![Architecture](images/New_Solution.png)
  
@@ -108,22 +108,6 @@ Perfect! You're now ready to schedule your pipeline and have your API data impor
 
 <!-- FILES -->
 ## Documentation, Data & Support Files
-
-The complete workshop documentation is split into 5 parts:
-
-[Part 1][Creating-a-modern-data-lakehouse-series-part-1]: What is a Data Lakehouse, what are the challenges and when does it make sense to implement this architecture?
-
-[Part 2][Creating-a-modern-data-lakehouse-series-part-2]: Preparations and provisioning of the Azure resources to create a Data Lakehouse.
-
-[Part 3][Creating-a-modern-data-lakehouse-series-part-3]: Start Azure Synapse Analytics and prepare an ETL pipeline.
-
-[Part 4][Creating-a-modern-data-lakehouse-series-part-4]: Create Synapse Notebooks, Lake Databases and Delta Tables.
-
-[Part 5][Creating-a-modern-data-lakehouse-series-part-5]: Lets connect it all to Power BI!
-
-The necessary data and support files used for the workshop can be found in a zip file [here][Creating-a-modern-data-lakehouse-zip]. 
-
-Download and unzip the file on your local computer.
 
 To create Azure resources, you will require an Azure account. You can start a free 30 day trial, by following the documentation found [here][Creating-a-free-azure-account-part-1]
 
