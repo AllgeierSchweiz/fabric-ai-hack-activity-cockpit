@@ -21,7 +21,7 @@
 # Fabric Activity Cockpit
 ## Introduction
 
-The objective of this solution is to create a Fabric architecture that uses the Power BI REST API to import PBI tenant-level activity metadata (activity events).
+The objective of this solution is to create a Fabric architecture that uses the Power BI REST API to import PBI tenant-level activity metadata ([Admin - Get Activity Events](https://learn.microsoft.com/en-us/rest/api/power-bi/admin/get-activity-events)).
 
 This information gives PBI Admins a birds-eye view of the activities being undertaken within the Fabric tenant and whether this conforms with company governance policies.
 
@@ -150,6 +150,7 @@ The following documentation was used to source the information contained in this
 * [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal)
 * [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal)
 * [Medallion Structure](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
+* [Admin - Get Activity Events](https://learn.microsoft.com/en-us/rest/api/power-bi/admin/get-activity-events)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
