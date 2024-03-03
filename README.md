@@ -32,7 +32,7 @@ Allowing questions such:
 3. Which type of activity, when, by whom and where was it executed?
 4. How many days of inactivity have there been?
 
-This can also be extended with additional API calls. To view the full catalog, take a look at the [Power BI REST API](https://learn.microsoft.com/en-us/rest/api/power-bi/) overview.
+This can also be extended with additional API calls. To view the full catalog, take a look at the [Power BI REST API](https://learn.microsoft.com/en-us/rest/api/power-bi/) overview. For a more detailed look at what can be achieved, checkout this [Admin API Blog](https://powerbi.microsoft.com/en-us/blog/announcing-new-admin-apis-and-service-principal-authentication-to-make-for-better-tenant-metadata-scanning/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -188,6 +188,7 @@ The following documentation was used to source the information contained in this
 * [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal)
 * [Medallion Structure](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
 * [Power BI REST API](https://learn.microsoft.com/en-us/rest/api/power-bi/)
+* [Admin API Blog](https://powerbi.microsoft.com/en-us/blog/announcing-new-admin-apis-and-service-principal-authentication-to-make-for-better-tenant-metadata-scanning/)
 * [Admin - Get Activity Events](https://learn.microsoft.com/en-us/rest/api/power-bi/admin/get-activity-events)
 
 
