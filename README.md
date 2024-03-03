@@ -92,7 +92,7 @@ The architecture setup in Fabric will follow the workflow of the diagram below:
 
 Even though we want to avoid using Azure Resources, we will need to configure three things within Azure: Service Principal, Azure Key Vault and Azure Openai.
 
-**Note: that since we are using Azure Openai Assistants with code interpreter, the Resource Group must reside in the Sweden Central, Australia East or East US 2.**
+**Note: that since we are using Azure Openai Assistants with code interpreter, the Resource Group must reside in the Sweden Central, Australia East or East US 2. To view the latest developments see [Azure Openai Assistant Regions](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview)**
 
 Azure
 
