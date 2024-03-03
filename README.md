@@ -49,7 +49,7 @@ The primary objective of this architecture, apart from automatically importing t
 
 The architecture setup will follow the workflow of the diagram below:
 
-*** ![Architecture](images/Data-Lakehouse-Architecture.png)
+![Architecture](images/Old_Solution.png)
 
 # Objective
 
