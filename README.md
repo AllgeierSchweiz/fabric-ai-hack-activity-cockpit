@@ -120,6 +120,8 @@ Currently, the stable version of the Azure Openai SDK requires the openai packag
 
 ![Environment](images/Environment_Configuration.png)
 
+<br/><br/>
+
 ### Fabric Notebook
 
 Change the Azure Key Vault URI in each notebook.
@@ -138,6 +140,7 @@ If you're unsure where to find the Openai API Key (**azure-openai-api-key**) or 
 
 For more information regarding your client (**azure-client-id** and **azure-client-secret**) and tenant (**azure-tenant-id**) information, see the [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal) documentation
 
+<br/><br/>
 
 ### Fabric Pipeline
 Here is what your pipeline should look like
