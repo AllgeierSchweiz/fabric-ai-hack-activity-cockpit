@@ -46,7 +46,7 @@ The primary objective of this architecture, apart from automatically importing t
 
 <br/><br/>
 
-**Architecture Overview (Original Version)**
+**Architecture Overview (Original Solution)**
 
 The architecture setup:
 
@@ -82,7 +82,7 @@ In our case, we will dispense with the silver layer since transformations will b
 
 <br/><br/>
 
-**Architecture Overview (New Version)**
+**Architecture Overview (Fabric Solution)**
 
 The architecture setup in Fabric will follow the workflow of the diagram below:
 
