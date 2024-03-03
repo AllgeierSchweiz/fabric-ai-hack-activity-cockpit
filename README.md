@@ -106,12 +106,19 @@ Azure
 Fabric
 
 1. Create a Fabric Workspace and within this workspace:
+   - Create one Fabric Environment (ALG_100_ENV)
    - Create two Fabric Notebooks (import the ipynb notebooks [ALG_100_NB_Openai_Assistant][ALG_100_NB_Openai_Assistant] and [ALG_100_NB_PBI_Rest_API][ALG_100_NB_PBI_Rest_API])
    - Create two Fabric Lakehouses (ALG_100_LH and ALG_300_LH)
    - Create one Fabric Pipeline (ALG_100_PL)
    - Create one Fabric Dataflow Gen2 (import the JSON template [ALG_100_DF][ALG_100_DF])
 
 <br/><br/>
+
+### Fabric Environment
+
+Currently, the stable version of the Azure Openai SDK requires the openai package version 1.12.0 and to aquire the token to authenticate the API calls, the msal package version 1.27.0 is required.
+
+
 
 ### Fabric Notebook
 
