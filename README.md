@@ -45,7 +45,7 @@ The primary objective of this architecture, apart from automatically importing t
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Architecture Overview (Original Version)
+**Architecture Overview (Original Version)**
 
 The architecture setup will follow the workflow of the diagram below:
 
@@ -63,7 +63,7 @@ Next, we create in our Fabric workspace a partial medallion structure comprised 
 
 Finally, all these pieces are refreshed in sequence using a pipeline.
 
-##* What is a Medallion Structure?
+## What is a Medallion Structure?
 
 The medallion structure is usually comprised of three layers that denote the quality of the data being stored. Each layer is a folder directory inside the Azure Data Lake Storage. The three layers are:
 
@@ -73,11 +73,11 @@ The medallion structure is usually comprised of three layers that denote the qua
 
 In our case, we will dispense with the silver layer since transformation will be achieved directly in the Dataflow Gen2.
 
-## Architecture Overview (Original Version)
+**Architecture Overview (Original Version)**
 
 The architecture setup will follow the workflow of the diagram below:
 
-*** ![Architecture](images/Data-Lakehouse-Architecture.png)
+*** ![Architecture](images/New_Solution.png)
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
