@@ -86,7 +86,7 @@ The architecture setup in Fabric will follow the workflow of the diagram below:
 
 Even though we want to avoid using Azure Resources, we will need to configure three things within Azure. 
 
-**Note: that since we are using Azure Openai Assistants with code interpreter, the Resource Group must reside in the [region][Azure Openai Assistants] Sweden Central, Australia East or East US 2.**
+**Note: that since we are using Azure Openai Assistants with code interpreter, the Resource Group must reside in the Sweden Central, Australia East or East US 2.**
 
 Azure
 
@@ -144,12 +144,10 @@ If there are any questions, feel free to reach out!
 
 The following documentation was used to source the information contained in this workshop.
 
-* [Azure Openai Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview)
+* [Azure Openai Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant)
+* [Azure Openai Assistant Regions](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview)
 * [Medallion Structure](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
-* [Medallion Structure Best Practices](https://piethein.medium.com/medallion-architecture-best-practices-for-managing-bronze-silver-and-gold-486de7c90055)
-* [Azure Pipelines](https://aarfahrayees.medium.com/delta-lake-26e76469322c)
-* [Data Lakehouse Strategy](https://techcommunity.microsoft.com/t5/azure-synapse-analytics-blog/building-the-lakehouse-implementing-a-data-lake-strategy-with/ba-p/3612291)
-* [SQL Database & Lake Database](https://learn.microsoft.com/en-us/answers/questions/784144/what-is-the-difference-between-sql-database-and-la)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
