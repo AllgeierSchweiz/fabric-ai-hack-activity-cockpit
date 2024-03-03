@@ -65,13 +65,13 @@ Finally, all these pieces are refreshed in sequence using a pipeline.
 
 ## What is a Medallion Structure?
 
-The medallion structure is usually comprised of three layers that denote the quality of the data being stored. Each layer is a folder directory inside the Azure Data Lake Storage. The three layers are:
+The medallion structure is usually comprised of three layers that denote the quality of the data being stored. In Fabric, the Lakehouses make up each. The three layers are:
 
 - Bronze (raw)
 - Silver (transformed and enriched)
 - Gold (aggregated)
 
-In our case, we will dispense with the silver layer since transformation will be achieved directly in the Dataflow Gen2.
+In our case, we will dispense with the silver layer since transformations will be achieved directly in the Dataflow Gen2.
 
 **Architecture Overview (Original Version)**
 
