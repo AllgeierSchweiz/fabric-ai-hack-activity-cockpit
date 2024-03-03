@@ -114,8 +114,12 @@ The following support files can be found in this repository:
 
 **Fabric Notebooks**
 
-- [ALG_100_NB_Openai_Assistant][ALG_100_NB_Openai_Assistant] has the python code to create and run the Azure Openai Assistant
-- [ALG_100_NB_PBI_Rest_API][ALG_100_NB_PBI_Rest_API] has the python code to call the Power BI REST API and save it to your Fabric lakehouse
+- [ALG_100_NB_Openai_Assistant][ALG_100_NB_Openai_Assistant] is the notebook with the python code to create and run the Azure Openai Assistant
+- [ALG_100_NB_PBI_Rest_API][ALG_100_NB_PBI_Rest_API] is the notebook with the python code to call the Power BI REST API and save it to your Fabric lakehouse
+
+**Fabric Dataflow Gen2**
+
+- [ALG_100_DF][ALG_100_DF] is the JSON template to create the Dataflow Gen2 that runs the data transformations.
 
 To create Azure resources, you will require an Azure account. You can start a free 30 day trial, by following the documentation found [here][Creating-a-free-azure-account-part-1]
 
@@ -187,3 +191,4 @@ The following documentation was used to source the information contained in this
 [Creating-a-free-azure-account-part-1]: https://github.com/AllgeierSchweiz/azure-data-lakehouse-lab/blob/main/series/Creating%20a%20Free%20Azure%20Account%20(Part%201%20of%201).md
 [ALG_100_NB_Openai_Assistant]: https://downgit.github.io/#/home?url=https://github.com/fabric-ai-hack-activity-cockpit/blob/main/support/notebooks/ALG_100_NB_Openai_Assistant.ipynb
 [ALG_100_NB_PBI_Rest_API]: https://downgit.github.io/#/home?url=https://github.com/fabric-ai-hack-activity-cockpit/blob/main/support/notebooks/ALG_100_NB_PBI_Rest_API.ipynb
+[ALG_100_DF]: https://downgit.github.io/#/home?url=https://github.com/fabric-ai-hack-activity-cockpit/blob/main/support/notebooks/ALG_100_DF.json
