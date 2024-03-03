@@ -115,9 +115,13 @@ Fabric
 <br/><br/>
 
 ### Fabric Notebook
-Here is where you need to change the Azure Key Vault URI
+Here is where you need to change the Azure Key Vault URI in the notebook. Do this for both Notebooks.
 
 ![Pipeline](images/Notebook_Configuration.png)
+
+You can find your Azure Key Vault URI in the Azure Portal under the overview page of the Azure Key Vault resource.
+
+![Key Vault](images/Notebook_Configuration.png)
 
 ### Fabric Pipeline
 Here is what your pipeline should look like
