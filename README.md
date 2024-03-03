@@ -73,7 +73,7 @@ The medallion structure is usually comprised of three layers that denote the qua
 
 In our case, we will dispense with the silver layer since transformations will be achieved directly in the Dataflow Gen2.
 
-**Architecture Overview (Original Version)**
+**Architecture Overview (New Version)**
 
 The architecture setup in Fabric will follow the workflow of the diagram below:
 
