@@ -23,7 +23,7 @@
 
 The objective of this solution is to create a Fabric architecture that uses the Power BI REST API to import PBI tenant-level activity metadata ([Admin - Get Activity Events](https://learn.microsoft.com/en-us/rest/api/power-bi/admin/get-activity-events)).
 
-This information gives PBI Admins a birds-eye view of the activities being undertaken within the Fabric tenant and whether this conforms with company governance policies.
+This information gives Fabric Admins a birds-eye view of the activities being undertaken within the Fabric tenant related to Power BI artifacts and whether this conforms with company governance policies.
 
 Allowing questions such:
 
