@@ -97,10 +97,10 @@ Azure
 Fabric
 
 1. Create a Fabric Workspace and within this workspace:
-2. Create two Fabric Notebooks (import the ipynb notebooks x and y)
-3. Create two Fabric Lakehouses
-4. Create one Fabric Pipeline (import the JSON template x)
-5. Create one Fabric Dataflow Gen2 (import the JSON template x)
+   - Create two Fabric Notebooks (import the ipynb notebooks x and y)
+   - Create two Fabric Lakehouses
+   - Create one Fabric Pipeline (import the JSON template x)
+   - Create one Fabric Dataflow Gen2 (import the JSON template x)
 
 Perfect! You're now ready to schedule your pipeline and have your API data imported, saved and transformed in your workspace. From here you can use your Data Lakehouse as a data source and create your own PBI reports!
 
@@ -108,6 +108,13 @@ Perfect! You're now ready to schedule your pipeline and have your API data impor
 
 <!-- FILES -->
 ## Documentation, Data & Support Files
+
+The following support files can be found in this repository:
+
+**Fabric Notebooks**
+
+- ALG_100_NB_Openai_Assistant has the python code to create and run the Azure Openai Assistant
+- ALG_100_NB_PBI_Rest_API has the python code to call the Power BI REST API and save it to your Fabric lakehouse
 
 To create Azure resources, you will require an Azure account. You can start a free 30 day trial, by following the documentation found [here][Creating-a-free-azure-account-part-1]
 
@@ -145,20 +152,19 @@ The following documentation was used to source the information contained in this
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/AllgeierSchweiz/azure-data-lakehouse.svg?style=for-the-badge
-[contributors-url]: https://github.com/AllgeierSchweiz/azure-data-lakehouse/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/AllgeierSchweiz/azure-data-lakehouse.svg?style=for-the-badge
-[forks-url]: https://github.com/AllgeierSchweiz/azure-data-lakehouse/network/members
-[stars-shield]: https://img.shields.io/github/stars/AllgeierSchweiz/azure-data-lakehouse.svg?style=for-the-badge
-[stars-url]: https://github.com/AllgeierSchweiz/azure-data-lakehouse/stargazers
-[issues-shield]: https://img.shields.io/github/issues/AllgeierSchweiz/azure-data-lakehouse.svg?style=for-the-badge
-[issues-url]: https://github.com/AllgeierSchweiz/azure-data-lakehouse/issues
-[license-shield]: https://img.shields.io/github/license/AllgeierSchweiz/azure-data-lakehouse.svg?style=for-the-badge
-[license-url]: https://github.com/AllgeierSchweiz/azure-data-lakehouse/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit.svg?style=for-the-badge
+[contributors-url]: https://github.com/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit.svg?style=for-the-badge
+[forks-url]: https://github.com/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit/network/members
+[stars-shield]: https://img.shields.io/github/stars/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit.svg?style=for-the-badge
+[stars-url]: https://github.com/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit/stargazers
+[issues-shield]: https://img.shields.io/github/issues/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit.svg?style=for-the-badge
+[issues-url]: https://github.com/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit/issues
+[license-shield]: https://img.shields.io/github/license/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit.svg?style=for-the-badge
+[license-url]: https://github.com/AllgeierSchweiz/fabric-ai-hack-pbi-activity-cockpit/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/nicolas-a-rehder/
-[azure-schield]: https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true
-[azure-url]: https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAllgeierSchweiz%2Fazure-data-lakehouse-lab%2Fmain%2Fazuredeploy.json
+
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
