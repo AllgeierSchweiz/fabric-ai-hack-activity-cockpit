@@ -44,6 +44,8 @@ Before the advent of Fabric, the aforementioned solution could be achieved using
 
 The primary objective of this architecture, apart from automatically importing the API metadata, was to save historical values since the API only kept metadatalogs for up to 30 days.
 
+<br/><br/>
+
 **Architecture Overview (Original Version)**
 
 The architecture setup:
