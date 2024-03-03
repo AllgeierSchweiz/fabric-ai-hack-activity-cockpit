@@ -118,7 +118,7 @@ Fabric
 
 Currently, the stable version of the Azure Openai SDK requires the openai package version 1.12.0 and to aquire the token to authenticate the API calls, the msal package version 1.27.0 is required.
 
-
+![Environment](images/Environment_Configuration.png)
 
 ### Fabric Notebook
 
