@@ -66,6 +66,8 @@ Next, we create in our Fabric workspace a partial medallion structure comprised 
 
 Finally, all these pieces are refreshed in sequence using a pipeline. Additonally, there is an E-Mail trigger that sends the status (success or failiure) of the pipeline once the run is finished.
 
+<br/><br/>
+
 ### What is a Medallion Structure?
 
 The medallion structure is usually comprised of three layers that denote the quality of the data being stored. In Fabric, the Lakehouses make up each. The three layers are:
