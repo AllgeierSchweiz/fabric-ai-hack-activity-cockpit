@@ -42,7 +42,7 @@ This can also be extended with additional API calls. To view the full catalog, t
 
 Before the advent of Fabric, the aforementioned solution could be achieved using a combination of Azure Function App, Azure Key Vault and Power Shell scripts to authenticate and call the Power BI REST API and save the data into Azure Storage in a scheduled manner.
 
-The primary objective of this architecture, apart from automatically importing the API metadata, was to save historical values since the API only kept metadatalogs for up to 30 days.
+The primary objective of this architecture, apart from automatically importing the API data, was to save historical values since the API only kept metadatalogs for up to 30 days.
 
 <br/><br/>
 
