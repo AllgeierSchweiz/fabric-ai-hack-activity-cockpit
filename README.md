@@ -56,9 +56,9 @@ The architecture setup:
 
 ## Objective
 
-Our goal was to create a solution that replicated the original architecture mentioned in chapter initial situation, directly in Fabric. 
+Our goal was to create a solution that replicated the original architecture, directly in Fabric. 
 
-By doing so, PBI Admins have the ability to manage this architecture within the Fabric tenant they oversee, avoiding or at least minimizing the need to work with Azure resources such as Azure Function App, Azure Storage.
+By doing so, PBI Admins have the ability to manage the setup within the Fabric tenant they oversee, avoiding or at least minimizing the need to work with Azure resources such as Azure Function App and Azure Storage.
 
 To achieve this, we first needed to transform the Power Shell scripts into Python to run the code in Fabric Notebooks. We used Azure Openai Assistants with code interpreter to help us translate the scripts into Python. This section substitutes the need for Azure Function App with Power Shell scripts.
 
@@ -70,7 +70,9 @@ Finally, all these pieces are refreshed in sequence using a pipeline. Additonall
 
 ### What is a Medallion Structure?
 
-The medallion structure is usually comprised of three layers that denote the quality of the data being stored. In Fabric, the Lakehouses make up each. The three layers are:
+The medallion structure is usually comprised of three layers that denote the quality of the data being stored. In Fabric, the Lakehouses make up each of these layers. 
+
+The three layers are:
 
 - Bronze (raw)
 - Silver (transformed and enriched)
@@ -88,7 +90,7 @@ The architecture setup in Fabric will follow the workflow of the diagram below:
 
 ## Getting Started
 
-Even though we want to avoid using Azure Resources, we will need to configure three things within Azure.
+Even though we want to avoid using Azure Resources, we will need to configure three things within Azure: Service Principal, Azure Key Vault and Azure Openai.
 
 **Note: that since we are using Azure Openai Assistants with code interpreter, the Resource Group must reside in the Sweden Central, Australia East or East US 2.**
 
