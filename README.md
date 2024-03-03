@@ -84,16 +84,16 @@ The architecture setup in Fabric will follow the workflow of the diagram below:
 
 ## Getting Started
 
-Even though we want to avoid using Azure Resources, we will need to configure three things within Azure. 
+Even though we want to avoid using Azure Resources, we will need to configure three things within Azure.
 
 **Note: that since we are using Azure Openai Assistants with code interpreter, the Resource Group must reside in the Sweden Central, Australia East or East US 2.**
 
 Azure
 
-1. Create a Service Principal. This is required to authenticate and grant the API call access to your Fabric tenant.
+1. Create a Service Principal. This is required to authenticate and grant the API call access to your Fabric tenant. For more information, see [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal)
 2. Create a Resource Group in your Azure Subscription. Within your Resource Group:
-   - Create a Azure Key Vault. This resource will hold your secrets, specifically your Azure Openai and Service Principal credentials. Make sure to grant the user running the Fabric Notebook GET access to these secrets. For more information, see [Azure Openai Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant).
-   - Create an Azure Openai Service and deploy the LLM model GPT-4 (1106-preview). Name this model deployment gpt-4-1106-preview. 
+   - Create a Azure Key Vault. This resource will hold your secrets, specifically your Azure Openai and Service Principal credentials. Make sure to grant the user running the Fabric Notebook GET access to these secrets. For more information, see [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal).
+   - Create an Azure Openai Service and deploy the LLM model GPT-4 (1106-preview). Name this model deployment gpt-4-1106-preview. For more information, see [Azure Openai Assistants Quick Start](https://learn.microsoft.com/en-us/azure/ai-services/openai/assistants-quickstart?tabs=command-line&pivots=programming-language-studio)
 
 Fabric
 
@@ -145,8 +145,10 @@ If there are any questions, feel free to reach out!
 The following documentation was used to source the information contained in this workshop.
 
 * [Azure Openai Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant)
+* [Azure Openai Assistants Quick Start](https://learn.microsoft.com/en-us/azure/ai-services/openai/assistants-quickstart?tabs=command-line&pivots=programming-language-studio)
 * [Azure Openai Assistant Regions](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview)
 * [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal)
+* [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal)
 * [Medallion Structure](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
 
 
