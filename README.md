@@ -62,7 +62,7 @@ By doing so, PBI Admins have the ability to manage the setup within the Fabric t
 
 To achieve this, we first needed to transform the Power Shell scripts into Python to run the code in Fabric Notebooks. We used Azure Openai Assistants with code interpreter to help us translate the scripts into Python. This section substitutes the need for Azure Function App with Power Shell scripts.
 
-Next, we create in our Fabric workspace a partial medallion structure comprised of a bronze and gold layer each made up of a Lakehouse. Additionally, we use a Dataflow Gen2 to carry out any data transformations in the bronze layer before making the data available in the gold layer. This section substitutes the Azure Storage.
+Next, we create a (partial) medallion structure comprised of a bronze and gold layer within our Fabric workspace. Each layer is made up of a Lakehouse. Additionally, we use a Dataflow Gen2 to carry out any data transformations in the bronze layer before making the data available in the gold layer. This section substitutes the Azure Storage.
 
 Finally, all these pieces are refreshed in sequence using a pipeline. Additonally, there is an E-Mail trigger that sends the status (success or failiure) of the pipeline once the run is finished.
 
@@ -70,7 +70,7 @@ Finally, all these pieces are refreshed in sequence using a pipeline. Additonall
 
 ### What is a Medallion Structure?
 
-The medallion structure is usually comprised of three layers that denote the quality of the data being stored. In Fabric, the Lakehouses make up each of these layers. 
+The medallion structure is usually comprised of three layers that denote the quality of the data being stored.
 
 The three layers are:
 
