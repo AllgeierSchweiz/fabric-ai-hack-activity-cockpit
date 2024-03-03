@@ -49,7 +49,7 @@ The primary objective of this architecture, apart from automatically importing t
 
 The architecture setup will follow the workflow of the diagram below:
 
-![Architecture](images/Old_Solution.png)
+![Architecture](images/Original_Solution.png)
 
 # Objective
 
