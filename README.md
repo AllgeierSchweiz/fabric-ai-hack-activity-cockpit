@@ -32,7 +32,7 @@ Allowing questions such:
 3. Which type of activity, when, by whom and where was it executed?
 4. How many days of inactivity have there been?
 
-and many more to easily be answered!
+This can also be extended with additional API calls. To view the full catalog, take a look at the [Power BI REST API](https://learn.microsoft.com/en-us/rest/api/power-bi/) overview.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,6 +150,7 @@ The following documentation was used to source the information contained in this
 * [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal)
 * [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal)
 * [Medallion Structure](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
+* [Power BI REST API](https://learn.microsoft.com/en-us/rest/api/power-bi/)
 * [Admin - Get Activity Events](https://learn.microsoft.com/en-us/rest/api/power-bi/admin/get-activity-events)
 
 
