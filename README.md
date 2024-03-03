@@ -115,11 +115,13 @@ Fabric
 
 ### Fabric Notebook
 
-Change the Azure Key Vault URI in each notebook and make sure to name your secrets in the Azure Key Vault exactly as in the notebooks i.e. azure-openai-endpoint, azure-openai-api-key, azure-client-id, azure-client-secret and azure-tenant-id). 
+Change the Azure Key Vault URI in each notebook and make sure to name your secrets in the Azure Key Vault exactly as in the notebooks i.e. **azure-openai-endpoint, azure-openai-api-key, azure-client-id, azure-client-secret and azure-tenant-id**
 
-If you're unsure where to find the Openai API Key or Endpoint, checkout the [Azure Openai Key and Endpoint](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=programming-language-python#retrieve-key-and-endpoint) documentation. 
+![Key Vault Secrets](images/Azure_Key_Vault_Secrets.png)
 
-For more information regarding your client and tenant information, see the [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal) documentation
+If you're unsure where to find the Openai API Key (**azure-openai-api-key**) or Endpoint (**azure-openai-endpoint**), checkout the [Azure Openai Key and Endpoint](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=programming-language-python#retrieve-key-and-endpoint) documentation. 
+
+For more information regarding your client (**azure-client-id** and **azure-client-secret**) and tenant (**azure-tenant-id**) information, see the [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal) documentation
 
 Here is where you need to change the Azure Key Vault URI in the notebook. Do this for both Notebooks.
 
@@ -127,7 +129,7 @@ Here is where you need to change the Azure Key Vault URI in the notebook. Do thi
 
 You can find your Azure Key Vault URI in the Azure Portal under the overview page of the Azure Key Vault resource.
 
-![Key Vault](images/Azure_Key_Vault_URI.png)
+![Key Vault URI](images/Azure_Key_Vault_URI.png)
 
 ### Fabric Pipeline
 Here is what your pipeline should look like
