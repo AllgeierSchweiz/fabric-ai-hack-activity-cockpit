@@ -105,6 +105,7 @@ Fabric
 
 1. Create a Fabric Workspace and within this workspace:
    - Create two Fabric Notebooks (import the ipynb notebooks [ALG_100_NB_Openai_Assistant][ALG_100_NB_Openai_Assistant] and [ALG_100_NB_PBI_Rest_API][ALG_100_NB_PBI_Rest_API])
+     - **Note: change the Azure Key Vault URL in each notebook and make sure to name your secrets exactly as in the notebooks i.e. azure-openai-endpoint, azure-openai-api-key, azure-client-id, azure-client-secret and azure-tenant-id). If you're unsure where to find the Openai API Key or Endpoint, checkout the [Azure Openai Key and Endpoint](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=programming-language-python#retrieve-key-and-endpoint) documentation.**
    - Create two Fabric Lakehouses
    - Create one Fabric Pipeline
    - Create one Fabric Dataflow Gen2 (import the JSON template [ALG_100_DF][ALG_100_DF])
@@ -153,6 +154,7 @@ The following documentation was used to source the information contained in this
 * [Azure Openai Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/assistant)
 * [Azure Openai Assistants Quick Start](https://learn.microsoft.com/en-us/azure/ai-services/openai/assistants-quickstart?tabs=command-line&pivots=programming-language-studio)
 * [Azure Openai Assistant Regions](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview)
+* [Azure Openai Key and Endpoint](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=programming-language-python#retrieve-key-and-endpoint)
 * [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal)
 * [Azure Service Principal](https://learn.microsoft.com/en-us/power-bi/developer/embedded/embed-service-principal)
 * [Medallion Structure](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
