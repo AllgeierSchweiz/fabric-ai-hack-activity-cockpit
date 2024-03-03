@@ -80,6 +80,8 @@ The three layers are:
 
 In our case, we will dispense with the silver layer since transformations will be achieved directly in the Dataflow Gen2.
 
+<br/><br/>
+
 **Architecture Overview (New Version)**
 
 The architecture setup in Fabric will follow the workflow of the diagram below:
