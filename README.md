@@ -62,7 +62,7 @@ To achieve this, we first needed to transform the Power Shell scripts into Pytho
 
 Next, we create in our Fabric workspace a partial medallion structure comprised of a bronze and gold layer each made up of a Lakehouse. Additionally, we use a Dataflow Gen2 to carry out any data transformations in the bronze layer before making the data available in the gold layer. This section substitutes the Azure Storage.
 
-Finally, all these pieces are refreshed in sequence using a pipeline.
+Finally, all these pieces are refreshed in sequence using a pipeline. Additonally, there is an E-Mail trigger that sends the status (success or failiure) of the pipeline once the run is finished.
 
 ### What is a Medallion Structure?
 
@@ -86,7 +86,7 @@ The architecture setup in Fabric will follow the workflow of the diagram below:
 
 Even though we want to avoid using Azure Resources, we will need to configure three things within Azure. 
 
-Please note that since we are using Azure Openai Assistants with code interpreter, the Resource Group must reside in the region Sweden Central or US East 2.
+**Note: that since we are using Azure Openai Assistants with code interpreter, the Resource Group must reside in the [region][Azure Openai Assistants] Sweden Central, Australia East or East US 2.**
 
 Azure
 
@@ -101,7 +101,7 @@ Fabric
    - Create two Fabric Notebooks (import the ipynb notebooks [ALG_100_NB_Openai_Assistant][ALG_100_NB_Openai_Assistant] and [ALG_100_NB_PBI_Rest_API][ALG_100_NB_PBI_Rest_API])
    - Create two Fabric Lakehouses
    - Create one Fabric Pipeline
-   - Create one Fabric Dataflow Gen2 (import the JSON template x)
+   - Create one Fabric Dataflow Gen2 (import the JSON template [ALG_100_DF][ALG_100_DF])
 
 Perfect! You're now ready to schedule your pipeline and have your API data imported, saved and transformed in your workspace. From here you can use your Data Lakehouse as a data source and create your own PBI reports!
 
@@ -144,7 +144,7 @@ If there are any questions, feel free to reach out!
 
 The following documentation was used to source the information contained in this workshop.
 
-* [Azure Architectures](https://learn.microsoft.com/en-us/azure/architecture/browse/)
+* [Azure Openai Assistants](https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models#assistants-preview)
 * [Medallion Structure](https://learn.microsoft.com/en-us/azure/databricks/lakehouse/medallion)
 * [Medallion Structure Best Practices](https://piethein.medium.com/medallion-architecture-best-practices-for-managing-bronze-silver-and-gold-486de7c90055)
 * [Azure Pipelines](https://aarfahrayees.medium.com/delta-lake-26e76469322c)
