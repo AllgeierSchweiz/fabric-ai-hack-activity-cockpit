@@ -38,7 +38,7 @@ and many more to easily be answered!
 
 
 <!-- GETTING STARTED -->
-## Initial Situation
+## Background
 
 Before the advent of Fabric, the aforementioned solution could be achieved using a combination of Azure Function App, Azure Key Vault and Power Shell scripts to authenticate and call the Power BI REST API and save the data into Azure Storage in a scheduled manner.
 
