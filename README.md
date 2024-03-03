@@ -105,7 +105,7 @@ Fabric
 
 1. Create a Fabric Workspace and within this workspace:
    - Create two Fabric Notebooks (import the ipynb notebooks [ALG_100_NB_Openai_Assistant][ALG_100_NB_Openai_Assistant] and [ALG_100_NB_PBI_Rest_API][ALG_100_NB_PBI_Rest_API])
-     - **Note: change the Azure Key Vault URL in each notebook and make sure to name your secrets exactly as in the notebooks i.e. azure-openai-endpoint, azure-openai-api-key, azure-client-id, azure-client-secret and azure-tenant-id). If you're unsure where to find the Openai API Key or Endpoint, checkout the [Azure Openai Key and Endpoint](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=programming-language-python#retrieve-key-and-endpoint) documentation.**
+     - **Note: change the Azure Key Vault URL in each notebook and make sure to name your secrets exactly as in the notebooks i.e. azure-openai-endpoint, azure-openai-api-key, azure-client-id, azure-client-secret and azure-tenant-id). If you're unsure where to find the Openai API Key or Endpoint, checkout the [Azure Openai Key and Endpoint](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=programming-language-python#retrieve-key-and-endpoint) documentation. For more information regarding your client and tenant information, see the [Azure Openai Key and Endpoint](https://learn.microsoft.com/en-us/azure/ai-services/openai/quickstart?tabs=command-line%2Cpython&pivots=programming-language-python#retrieve-key-and-endpoint) documentation**
    - Create two Fabric Lakehouses
    - Create one Fabric Pipeline
    - Create one Fabric Dataflow Gen2 (import the JSON template [ALG_100_DF][ALG_100_DF])
