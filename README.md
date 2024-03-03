@@ -28,7 +28,7 @@ This information gives PBI Admins a birds-eye view of the activities being under
 Allowing questions such:
 
 1. What is the overall activity trend?
-2. How much activity was there per workspace, dataset, dataflow, datamart, report, app.
+2. How much activity was there per workspace, dataset, dataflow, datamart, report and/or app?
 3. Which type of activity, when, by whom and where was it executed?
 4. How many days of inactivity have there been?
 
