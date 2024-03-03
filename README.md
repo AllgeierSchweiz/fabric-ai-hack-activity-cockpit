@@ -114,6 +114,11 @@ Fabric
 
 <br/><br/>
 
+### Fabric Notebook
+Here is where you need to change the Azure Key Vault URI
+
+![Pipeline](images/Pipeline_Setup.png)
+
 ### Fabric Pipeline
 Here is what your pipeline should look like
 
