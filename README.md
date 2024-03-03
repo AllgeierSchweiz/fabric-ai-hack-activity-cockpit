@@ -184,5 +184,6 @@ The following documentation was used to source the information contained in this
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
 [Creating-a-modern-data-lakehouse-zip]: https://github.com/AllgeierSchweiz/azure-data-lakehouse-lab/raw/main/Creating-a-Modern-Data-Lakehouse-with-Azure-Synapse.zip
+[Creating-a-free-azure-account-part-1]: https://github.com/AllgeierSchweiz/azure-data-lakehouse-lab/blob/main/series/Creating%20a%20Free%20Azure%20Account%20(Part%201%20of%201).md
 [ALG_100_NB_Openai_Assistant]: https://downgit.github.io/#/home?url=https://github.com/fabric-ai-hack-activity-cockpit/blob/main/support/notebooks/ALG_100_NB_Openai_Assistant.ipynb
 [ALG_100_NB_PBI_Rest_API]: https://downgit.github.io/#/home?url=https://github.com/fabric-ai-hack-activity-cockpit/blob/main/support/notebooks/ALG_100_NB_PBI_Rest_API.ipynb
