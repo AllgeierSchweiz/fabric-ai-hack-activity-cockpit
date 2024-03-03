@@ -98,9 +98,9 @@ Azure
 Fabric
 
 1. Create a Fabric Workspace and within this workspace:
-   - Create two Fabric Notebooks (import the ipynb notebooks x and y)
+   - Create two Fabric Notebooks (import the ipynb notebooks [ALG_100_NB_Openai_Assistant][ALG_100_NB_Openai_Assistant] and [ALG_100_NB_PBI_Rest_API][ALG_100_NB_PBI_Rest_API])
    - Create two Fabric Lakehouses
-   - Create one Fabric Pipeline (import the JSON template x)
+   - Create one Fabric Pipeline
    - Create one Fabric Dataflow Gen2 (import the JSON template x)
 
 Perfect! You're now ready to schedule your pipeline and have your API data imported, saved and transformed in your workspace. From here you can use your Data Lakehouse as a data source and create your own PBI reports!
