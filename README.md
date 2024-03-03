@@ -18,7 +18,8 @@
 
 
 <!-- ABOUT THE PROJECT -->
-# Introduction
+# Fabric Activity Cockpit
+## Introduction
 
 The objective of this solution is to create a Fabric architecture that uses the Power BI REST API to import PBI tenant-level activity metadata (activity events).
 
@@ -37,13 +38,11 @@ and many more to easily be answered!
 
 
 <!-- GETTING STARTED -->
-# Initial Situation
+## Initial Situation
 
 Before the advent of Fabric, the aforementioned solution could be achieved using a combination of Azure Function App, Azure Key Vault and Power Shell scripts to authenticate and call the Power BI REST API and save the data into Azure Storage in a scheduled manner.
 
 The primary objective of this architecture, apart from automatically importing the API metadata, was to save historical values since the API only kept metadatalogs for up to 30 days.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 **Architecture Overview (Original Version)**
 
@@ -51,7 +50,9 @@ The architecture setup:
 
 ![Architecture](images/Original_Solution.png)
 
-# Objective
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Objective
 
 Our goal was to create a solution that replicated the original architecture mentioned in chapter initial situation, directly in Fabric. 
 
@@ -63,7 +64,7 @@ Next, we create in our Fabric workspace a partial medallion structure comprised 
 
 Finally, all these pieces are refreshed in sequence using a pipeline.
 
-## What is a Medallion Structure?
+### What is a Medallion Structure?
 
 The medallion structure is usually comprised of three layers that denote the quality of the data being stored. In Fabric, the Lakehouses make up each. The three layers are:
 
@@ -81,7 +82,7 @@ The architecture setup in Fabric will follow the workflow of the diagram below:
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Getting Started
+## Getting Started
 
 Even though we want to avoid using Azure Resources, we will need to configure three things within Azure. 
 
